@@ -6,7 +6,7 @@ print(title.upper())
 while True:
     try:
         bill = input('Enter your monthly expense (or 0 to finish): ')
-        bill = int(bill)
+        bill = float(bill)
         if bill < 0:
             print("Expense cannot be negative. Please enter a valid amount.")
             continue
