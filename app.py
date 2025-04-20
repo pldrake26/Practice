@@ -17,7 +17,7 @@ while True:
                 print("Warning: This expense exceeds your budget!")
             else:
                 total += bill
-                print(f'Expense added: ${bill}')
+                print(f'Expense added: ${bill:.2f}')
     except ValueError:
         print("Invalid input. Please enter a numeric value.")
 
